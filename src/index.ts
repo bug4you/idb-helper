@@ -16,7 +16,7 @@ class IDBHelper {
             request.onupgradeneeded = (event) => {
                 const db = (event.target as IDBOpenDBRequest).result;
                 if (!db.objectStoreNames.contains(this.storeName)) {
-                    db.createObjectStore(this.storeName, { keyPath: "id", autoIncrement: true });
+                    db.createObjectStore(this.storeName, {keyPath: "id", autoIncrement: true});
                 }
             };
 
@@ -86,4 +86,9 @@ class IDBHelper {
     }
 }
 
-export default IDBHelper;
+// Proper export for browser or Node.js
+if (typeof window !== "undefined") {
+    (window as any).IDBHelper = IDBHelper;
+}
+
+export {IDBHelper};

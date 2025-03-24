@@ -44,7 +44,7 @@ import { IDBHelper } from "idb-helper";
 const db = new IDBHelper("myDatabase");
 
 // Store data
-await db.set("user", { name: "Dilshod", age: 27 });
+await db.set({ name: "Dilshod", age: 27 });
 
 // Get information
 const user = await db.get("user");

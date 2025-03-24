@@ -1,5 +1,5 @@
 import {describe, it, expect, beforeEach, afterEach} from "vitest";
-import IDBHelper from "./index";
+import {IDBHelper} from "./index";
 
 const DB_NAME = "testDB";
 const STORE_NAME = "testStore";

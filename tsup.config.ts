@@ -5,6 +5,5 @@ export default defineConfig({
     clean: true,
     format: ["cjs", "esm", "iife"],
     dts: true,
-    globalName: "IDBHelper",
-    minify: "terser"
+    // globalName olib tashlanadi
 });
