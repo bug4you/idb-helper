@@ -1,0 +1,43 @@
+{
+  "name": "idb-helper",
+  "version": "1.0.0",
+  "description": "A lightweight helper library for IndexedDB, making it as easy to use as LocalStorage.",
+  "keywords": [
+    "indexeddb",
+    "idb",
+    "database",
+    "storage",
+    "localstorage",
+    "helper",
+    "lightweight"
+  ],
+  "homepage": "https://github.com/bug4you/idb-helper#readme",
+  "bugs": {
+    "url": "https://github.com/bug4you/idb-helper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bug4you/idb-helper.git"
+  },
+  "license": "MIT",
+  "author": "Dilshod Fayzullayev <algoexpert.uz@gmail.com>",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "terser": "^5.39.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}
