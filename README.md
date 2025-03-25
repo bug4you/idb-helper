@@ -46,7 +46,7 @@ Or use CDN:
 
 ## 🚀 Usage
 
-### 🛠 IDBHelper – Full API Usage (Based on Your Methods)
+### 🛠 IDBHelper – Full API Usage
 ```ts
 import { IDBHelper } from "idb-helper";
 
