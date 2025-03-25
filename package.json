@@ -1,6 +1,6 @@
 {
   "name": "idb-helper",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A lightweight helper library for IndexedDB, making it as easy to use as LocalStorage.",
   "keywords": [
     "indexeddb",
