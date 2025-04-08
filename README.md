@@ -1,6 +1,6 @@
-<center>
-<h1>🚀 idb-helper</h1>
-</center>
+<div align="center">
+<h1 style="text-align:center;">🚀 idb-helper</h1>
+</div>
 
 🚀 **idb-helper** – The easiest way to work with IndexedDB! This library simplifies IndexedDB operations, making it as intuitive as LocalStorage while providing better performance and scalability for large datasets.
 
